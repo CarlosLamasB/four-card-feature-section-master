@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="P1-Estilo.css" media="screen" />
+</head>
+<body>
+
+ <div class= "item-1">
+   <p class= "title">
+     Reliable, efficient delivery       
+     <b>Powered by Technology</b>
+     </p>
+   <p class="b1">Our Artificial Intelligence powered tools use millions of project data to ensure that your project is successful</p>
+   </div>
+ <div class= "item-2">
+   <div class= "son-2">
+   </div>
+   <p class= "title2">
+     Team Builder
+     </p>
+   <p class="b2"> Scans our talent network to create the optimal team for your project</p>
+   <img src="four-card-feature-section-master/images/icon-team-builder.svg" class="logo">
+</div>
+  <div class= "item-3">
+    <div class= "son-3">
+   </div>
+    <p class= "title2">
+      Supervisor
+     </p>
+     <p class="b2"> Monitors activity to identify project roadblocks
+    </p>
+<img src="four-card-feature-section-master/images/icon-supervisor.svg" class="logo">
+   </div>
+  <div class= "item-4">
+    <div class= "son-4">
+   </div>
+    <p class= "title2">
+      Calculator
+     </p>
+     <p class="b2"> Uses data from past projects to provide better delivery estimates
+    </p>
+<img src="four-card-feature-section-master/images/icon-calculator.svg" class="logo">
+   </div>
+  <div class= "item-5">
+    <div class= "son-5">
+   </div>
+    <p class= "title2">Karma
+     </p>
+    <p class="b2"> Regularly evaluates our talent to ensure quality
+    </p> 
+<img src="four-card-feature-section-master/images/icon-karma.svg" class="logo">
+   </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{background: hsl(0, 0%, 98%);
+    display: grid;
+  width: 100%;
+}
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+@media (max-width: 1440px){
+  
+  body{  grid-template-columns: auto 150px 50px 20px 200px 20px 50px 150px auto;
+    grid-template-rows:75px 150px 75px 75px 75px 20px 55px 95px 75px;
+    
+}
+  .item-1 {
+  grid-area: 2 / 3 / 3 / 8;
+    background: hsl(0, 0%, 98%);
+    text-align:center;
+}
+ 
+ .item-2 {
+  grid-area: 4 / 5 / 6 / 6;
+    background: hsl(360, 100%, 100%);
+    border-radius: 10px;
+    text-align:left;
+   box-shadow:
+       0px  3px 10px 1px hsl(229, 6%, 66%), 0px  3px 9px 1px hsl(234, 12%, 34%);
+}
+   .son-2{
+   height: 10px;
+     background-color:hsl(360, 76%,52%);
+     border-radius: 10px 10px 0px 0px;
+  }
+  
+  .item-3 {
+  grid-area: 5 / 2 / 8 / 4;
+    background: hsl(360, 100%, 100%);
+    border-radius: 10px;
+     box-shadow:
+       0px  3px 10px 1px hsl(229, 6%, 66%), 0px  3px 9px 1px hsl(234, 12%, 34%);
+}
+  .son-3{
+   height: 10px;
+     background-color: hsl(180, 62%, 55%);
+     border-radius: 10px 10px 0px 0px;
+  }
+  
+  
+  .item-4 {
+    grid-area: 5 / 7 / 8 / 9;
+     background: hsl(360, 100%, 100%);
+    border-radius: 10px;
+     box-shadow:
+       0px  3px 10px 1px hsl(229, 6%, 66%), 0px  3px 9px 1px hsl(234, 12%, 34%);
+}
+  .son-4{
+   height: 10px;
+     background-color: hsl(212, 86%, 64%);
+     border-radius: 10px 10px 0px 0px;
+  }
+  .item-5 {
+  grid-area: 7/ 5 / 9 /6;
+background: hsl(360, 100%, 100%);
+    border-radius: 10px;
+     box-shadow:
+       0px  3px 10px 1px hsl(229, 6%, 66%), 0px  3px 9px 1px hsl(234, 12%, 34%);
+}
+  .son-5{
+   height: 10px;
+     background-color: hsl(34, 97%, 64%);
+     border-radius: 10px 10px 0px 0px;
+  }
+  
+  .title{
+    font-family: "Poppins";
+     font-size: 26px;
+  }
+  .b1{ font-family: "Poppins";
+  font-size: 12.3px;}
+
+  .title2{
+    font-family: "Poppins";
+     font-size: 18px;
+    font-weight: bold;
+    margin: 10px 10px;
+
+  }
+.b2{ font-family: "Poppins";
+  font-size: 11px;
+margin:10px;}
+.logo{ background-position: bottom right;
+}
+
+}
